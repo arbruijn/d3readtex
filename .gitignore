@@ -3,3 +3,6 @@ bin/
 .vs/
 *~
 packages/
+*.png
+*.sh
+.vscode/
