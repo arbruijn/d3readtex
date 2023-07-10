@@ -12,6 +12,8 @@ namespace d3readtex
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("d3readtex v0.1, writes all Descent 3 textures as png files");
+            Console.WriteLine();
         	if (args.Length == 0 || !File.Exists(args[0]))
         	{
         		Console.WriteLine("Specify the d3.hog file path as argument");
